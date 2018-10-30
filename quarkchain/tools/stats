@@ -84,7 +84,7 @@ def main():
     )
     print(LINE)
     while True:
-        print(format.format(*stats(args.ip)))
+        print(format.format(*stats(args.ip)), flush=True)
         time.sleep(10)
 
 
